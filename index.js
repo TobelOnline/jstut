@@ -13,7 +13,8 @@ window.addEventListener("load", function() {
 let changeHeading = function() {
   let heading = document.getElementById("heading");
   console.log(heading.innerHTML);
-  heading.innerHTML = "Neue Ueberschrift!";
+  heading.style.display= "none";
+  document.createAttribute("")
 }
 
 //setInterval(function(){console.log("Test");},2000)
